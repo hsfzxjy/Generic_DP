@@ -7,7 +7,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def _select(args, *, method='MAX', store_decisions=True):
+def _select(args, *, method='max', store_decisions=True):
     """
     args: List[((next_stage, next_state), value)]
 
